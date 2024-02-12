@@ -4,7 +4,8 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: { main: './front/scripts/index.js',
-            ajax: './front/scripts/ajax.js'
+            ajax: './front/scripts/ajax.js',
+            modal: './front/scripts/modal.js',
 
 },
     output: {
